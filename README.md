@@ -37,17 +37,29 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.baseLang
 Type: `String`
-Default value: `',  '`
+Default value: `'en'`
 
-A string value that is used to do something with whatever.
+The default language used to check the other language files.
 
-#### options.punctuation
+#### dest
 Type: `String`
-Default value: `'.'`
+Default value: `'null'`
 
-A string value that is used to do something else with whatever else.
+This is the destination where the updated languages files will be added, when there is no destitation, the old files will be overwritten.
+
+#### ext
+Type: `String`
+Default value: `'json'`
+
+The extension of the translation file
+
+#### options.placeholder
+Type: `String`
+Default value: `'$$placeholder'`
+
+This value will be filled when the key from the base language is not present in the other checked language.
 
 ### Usage Examples
 
@@ -57,27 +69,13 @@ In this example, the default options are used to do something with whatever. So 
 ```js
 grunt.initConfig({
   angular_translate_auto_add_missing_keys: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-});
-```
-
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
-
-```js
-grunt.initConfig({
-  angular_translate_auto_add_missing_keys: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+      app: {
+        options: {
+          baseLang: 'base',
+          dest: 'tmp/fixtures'
+        },
+        src: 'test/fixtures/*.json'
+      },
   },
 });
 ```
