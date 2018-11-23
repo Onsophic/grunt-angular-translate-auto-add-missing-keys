@@ -1,0 +1,39 @@
+{
+  "name": "grunt-angular-translate-auto-add-missing-keys",
+  "description": "This plugins searches through a base angular-translate file and add the missing keys into the other translation files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jeroenabrahams/angular-translate-auto-add-missing-keys",
+  "private": true,
+  "author": {
+    "name": "jeroen.abrahams",
+    "email": "jeroen.abrahams@onsophic.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeroenabrahams/angular-translate-auto-add-missing-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeroenabrahams/angular-translate-auto-add-missing-keys/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jeroenabrahams/angular-translate-auto-add-missing-keys/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

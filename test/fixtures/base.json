@@ -1,0 +1,11 @@
+{
+  "entity_learningProgram":"learning program",
+  "entity_learningPrograms": "learning programs",
+
+  "entity_course":"course",
+  "entity_courses":"courses",
+
+  "entity_module": "module",
+
+  "entity_chapter":"chapter"
+}

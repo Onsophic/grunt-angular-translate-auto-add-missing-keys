@@ -1,0 +1,11 @@
+{
+  "entity_course": "cursus",
+
+  "entity_learningProgram": "leerprogramma",
+  "entity_learningPrograms": "leerprogramma's",
+
+  "entity_courses": "cursussen",
+  "entity_modules": "modules",
+
+  "entity_chapter": "hoofdstuk"
+}
