@@ -3,6 +3,6 @@
   "entity_learningPrograms": "leerprogramma's",
   "entity_course": "cursus",
   "entity_courses": "cursussen",
-  "entity_module": "$$placeholder",
+  "entity_module": "$$$ module",
   "entity_chapter": "hoofdstuk"
 }

@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       ],
       options: {
         jshintrc: '.jshintrc',
-        reporterOutput: "",
+        reporterOutput: ""
       }
     },
 
@@ -37,7 +37,7 @@ module.exports = function(grunt) {
           dest: 'tmp/fixtures'
         },
         src: 'test/fixtures/*.json'
-      },
+      }
 
     },
 

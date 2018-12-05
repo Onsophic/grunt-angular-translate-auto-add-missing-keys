@@ -28,12 +28,9 @@ exports.angular_translate_auto_add_missing_keys = {
     done();
   },
   default_options: function(test) {
-    test.expect(1);
-
-      var actual = grunt.file.read('tmp/compare.json');
-      var expected = grunt.file.read('test/expected/compare.json');
-//    test.equal(actual, expected, 'should describe what the default behavior is.');
-      test.equal(1, 1, ['test']);
+    var actual = grunt.file.read('tmp/compare.json');
+    var expected = grunt.file.read('test/expected/compare.json');
+    test.equal(actual, expected, 'should describe what the default behavior is.');
     test.done();
   }
 };

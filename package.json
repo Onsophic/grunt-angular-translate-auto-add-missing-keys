@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "homepage": "https://github.com/Onsophic/angular-translate-auto-add-missing-keys",
   "private": true,
-
-"author": {
+  "author": {
     "name": "jeroen.abrahams",
     "email": "jeroen.abrahams@onsophic.com"
   },
